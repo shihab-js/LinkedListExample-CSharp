@@ -10,7 +10,10 @@ namespace LinkedListExample
             //create a linked list
             var names = new LinkedList<string>();
 
-           
+            //add element to linked list
+            names.AddLast("Mishu");
+            names.AddFirst("Shihab");
+            names.AddLast("Rayhan");
         }
     }
 }
