@@ -27,6 +27,14 @@ namespace LinkedListExample
             names.AddBefore(node, "Moshrefa");
             names.AddAfter(node, "Love");
 
+            //print show message
+            Console.WriteLine("After new element added: ");
+
+            //Iterate after new element added
+            foreach(var name in names)
+            {
+                Console.WriteLine(name);
+            }
         }
     }
 }
