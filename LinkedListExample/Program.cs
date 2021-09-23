@@ -21,6 +21,12 @@ namespace LinkedListExample
             {
                 Console.WriteLine(name);
             }
+
+            //create a new node
+            LinkedListNode<string> node = names.Find("Mishu");
+            names.AddBefore(node, "Moshrefa");
+            names.AddAfter(node, "Love");
+
         }
     }
 }
