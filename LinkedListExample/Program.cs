@@ -14,6 +14,13 @@ namespace LinkedListExample
             names.AddLast("Mishu");
             names.AddFirst("Shihab");
             names.AddLast("Rayhan");
+
+
+            //Iterate Linked list
+            foreach(var name in names)
+            {
+                Console.WriteLine(name);
+            }
         }
     }
 }
